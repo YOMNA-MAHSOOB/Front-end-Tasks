@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.vertical {
+    height: 963px;
+    width: 430px;
+    float: left;
+    background-color: #5169ad;
+    color: white;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.vertical ul li a {
+    font-size: 25px;
+    padding-left: 20px;
+    display: block;
+    width: 390px;
+    margin-top: 10px;
+    transition: 0.91s;
+    color: white;
+    text-decoration: none;
+
+}
+.vertical ul li a:hover {
+    background-color: rgba(240, 235, 235, 0.279);
+    font-size: 28px;
+}
+.main,
+.search {
+    float: left;
+    height: 963px;
+    width: 1424px;
+}
+.main h2,
+.search h2 {
+    width: 1000px;
+    border: 1px solid #5169ad;
+    margin: 30px 170px;
+    transition: 0.45s;
+}
+.main h2:hover,
+.search h2:hover {
+    background-color: #5169ad;
+    color: white;
+}
+form {
+    margin-left: 200px;
+}
+select {
+    margin-left: 10px;
+    width: 150px;
+    height: 35px;
+}
+label {
+    font-size: 25px;
+}
+form input {
+    width: 270px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+form input:focus {
+    background-color: rgba(200, 200, 200, 0.279);
+}
+input:placeholder-shown {
+    font-size: 15px;
+}
+#add, #get ,#Delete,#edit {
+    width: 270px;
+    height: 40px;
+    background-color: #5169ad;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    font-size: 23px;
+    margin-left: 520px;
+    transition: 0.2s;
+}
+#add:active,#get:active , #Delete:active, #edit:active{
+    width: 290px;
+    height: 47px;
+    background-color: #4e64a1f9;
+}
+#output p {
+    background-color: #f0f8ff;
+    padding: 10px 15px;
+    margin: 10px 520px;
+    border-left: 4px solid #007BFF;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+}
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 8px;
+    margin-left: 390px;
+ 
+}
+.success {
+    color: green;
+    background-color: #d4edda;
+    border: 1px solid green;
+    display: inline-block;
+}
+.fail {
+    color: red;
+    background-color: #f8d7da;
+    border: 1px solid red;
+    display: inline-block;
+}

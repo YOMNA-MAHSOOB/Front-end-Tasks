@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="vertical">
+        <h2>Forms</h2>
+        <ul>
+            <li><a href="index.html">Add user</a></li>
+            <li><a href="getuser.html">Get user</a></li>
+            <li><a href="edituser.html">Edit user</a></li>
+            <li><a href="deleteuser.html">Delete user</a></li>
+        </ul>
+    </div> <!--vertical-->
+    <div class="main">
+        <h2>Add User Form</h2>
+        <form>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="Username"> <br>
+            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Confirm Password">
+            <input type="email" placeholder="Email">
+        </form>
+        <label style="margin-left: 230px;">Fav OS</label>
+        <select>
+            <option>Linux</option>
+            <option>Mac OS</option>
+            <option>Windows</option>
+        </select>
+        <br> <br> <br>
+        <button onclick="add_user()" id="add">Add User</button>
+        <div id="output"></div>
+    </div>
+    <script src="logic.js"></script>
+</body>
+
+</html>
