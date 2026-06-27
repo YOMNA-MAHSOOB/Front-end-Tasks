@@ -51,9 +51,3 @@ I am currently learning React.js and practicing concepts such as:
 ## About This Repository
 
 This repository will continue to grow as I learn new technologies and complete more tasks. It represents my learning journey and continuous improvement as a front-end developer.
-
-## Author
-
-**Yomna Elkobesy**
-
-Computer Science Student passionate about Web Development and continuously learning new technologies.
